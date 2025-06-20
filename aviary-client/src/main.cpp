@@ -1,16 +1,3 @@
-/*
-  ModbusRTU ESP8266/ESP32
-  Read multiple coils from slave device example
-
-  (c)2019 Alexander Emelianov (a.m.emelianov@gmail.com)
-  https://github.com/emelianov/modbus-esp8266
-
-  modified 13 May 2020
-  by brainelectronics
-
-  This code is licensed under the BSD New License. See LICENSE.txt for more info.
-*/
-
 #include "../../setup.h"
 #include <SoftwareSerial.h>
 EspSoftwareSerial::UART SoftSerial(26, 25, false);
